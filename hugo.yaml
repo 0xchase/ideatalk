@@ -1,0 +1,59 @@
+title: Idea Talk
+baseURL: https://ideatalk.org/
+languageCode: en-us
+theme: hugo-blog-awesome
+defaultContentLanguage: "en-gb"
+googleAnalytics: '' # G-MEASUREMENT_ID
+enableEmoji: true
+disqusShortname: ''
+
+title: Chase Kanipe
+author: Chase Kanipe
+defaultContentLanguage: en
+sectionPagesMenu: main
+description: Here is a desciption of something
+taxonomies:
+  category: categories
+  tag: tags
+menu:
+  main:
+    - identifier: about
+      name: About
+      url: /about/
+      weight: 10
+    - identifier: calendar
+      name: Calendar
+      url: /calendar/
+      weight: 24
+params:
+  homeSubtitle: Graduate student at UMD
+  portrait:
+    path: "/images/doors.jpg"
+  enableThemeToggle: false
+  dateform: "Jan 2, 2006"
+  dateformShort: "Jan 2"
+  dateformNum: "2006-01-02"
+  dateformNumTime: "2006-01-02 15:04"
+  socialIcons: # optional
+    - name: github
+      url: https://github.com/0xchase
+    - name: youtube
+      url: https://www.youtube.com/channel/UCqzgY2CHXQx_dLwcdq-YlIQyoutube.com
+    - name: spotify
+      url: https://spotify.com
+    - name: reddit
+      url: https://www.reddit.com/user/chase1635321
+  social: # optional
+    - name: github
+      url: https://github.com/0xchase
+    - name: youtube
+      url: https://www.youtube.com/channel/UCqzgY2CHXQx_dLwcdq-YlIQyoutube.com
+    - name: spotify
+      url: https://spotify.com
+    - name: reddit
+      url: https://www.reddit.com/user/chase1635321
+  footer:
+    trademark: 2023
+    rss: false
+    copyright: true
+    author: true

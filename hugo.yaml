@@ -35,16 +35,16 @@ languages:
         - name: Events
           url: events
           weight: 2
-        - name: Archive
-          url: archives
+        - name: Blog
+          url: posts
           weight: 5
         #- name: Search
         #  url: search/
         #  weight: 10
-        - name: Tags
-          url: tags/
-          weight: 10
-        - name: WiKi
+        #- name: Tags
+        #  url: tags/
+        #  weight: 10
+        - name: Join
           url: https://github.com/adityatelange/hugo-PaperMod/wiki/
 
 outputs:
